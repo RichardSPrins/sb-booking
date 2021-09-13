@@ -30,17 +30,17 @@ function PriceWrapper({ children }) {
 
 function ThreeTierPricing() {
   return (
-    <Box py={12} maxW="7xl" m="0 auto">
+    <Box id="pricing" py={12} maxW="7xl" m="0 auto">
       <VStack spacing={2} textAlign="center">
         <Heading as="h1" fontSize="4xl">
           Start your coaching career with<br />
           plans that fit your needs.
         </Heading>
         <Text fontSize="lg" color="gray.500">
-          SquadPerks is free to use for all students. Only pay for the coach you want to hire.
+          SquadPerks is free to use for all students to sign up. Only pay for the coach you want to hire.
         </Text>
         <Text fontSize="lg" color={'gray.500'}>
-          Coaches can start with 14-day free trial. No credit card needed. Cancel at
+          Coaches can start with 30-day free trial. Cancel at
           anytime.
         </Text>
       </VStack>
@@ -56,14 +56,8 @@ function ThreeTierPricing() {
               Hobby
             </Text>
             <HStack justifyContent="center">
-              <Text fontSize="3xl" fontWeight="600">
-                $
-              </Text>
               <Text fontSize="5xl" fontWeight="900">
-                40
-              </Text>
-              <Text fontSize="3xl" color="gray.500">
-                /month
+                Free
               </Text>
             </HStack>
           </Box>
@@ -74,7 +68,7 @@ function ThreeTierPricing() {
             <List spacing={3} textAlign="start" px={12}>
               <ListItem>
                 <ListIcon as={FaCheckCircle} color="green.500" />
-                10 Students.
+                20 Students.
               </ListItem>
               <ListItem>
                 <ListIcon as={FaCheckCircle} color="green.500" />
@@ -84,10 +78,14 @@ function ThreeTierPricing() {
                 <ListIcon as={FaCheckCircle} color="green.500" />
                 25 Monthly Agreements.
               </ListItem>
+              <ListItem>
+                <ListIcon as={FaCheckCircle} color="green.500" />
+                10% Transaction Fee
+              </ListItem>
             </List>
             <Box w="80%" pt={7}>
-              <Button w="full" colorScheme="green" variant="outline">
-                Start trial
+              <Button  w="full" colorScheme="green" variant="outline">
+                Get Started
               </Button>
             </Box>
           </VStack>
@@ -105,7 +103,7 @@ function ThreeTierPricing() {
                 bg={useColorModeValue('green.300', 'green.600')}
                 px={3}
                 py={1}
-                color={useColorModeValue('gray.900', 'gray.300')}
+                color={'white'}
                 fontSize="sm"
                 fontWeight="600"
                 rounded="xl">
@@ -121,7 +119,7 @@ function ThreeTierPricing() {
                   $
                 </Text>
                 <Text fontSize="5xl" fontWeight="900">
-                  80
+                  60
                 </Text>
                 <Text fontSize="3xl" color="gray.500">
                   /month
@@ -135,7 +133,7 @@ function ThreeTierPricing() {
               <List spacing={3} textAlign="start" px={12}>
                 <ListItem>
                   <ListIcon as={FaCheckCircle} color="green.500" />
-                  20 Students.
+                  40 Students.
                 </ListItem>
                 <ListItem>
                   <ListIcon as={FaCheckCircle} color="green.500" />
@@ -145,9 +143,13 @@ function ThreeTierPricing() {
                   <ListIcon as={FaCheckCircle} color="green.500" />
                   50 Monthly Agreements.
                 </ListItem>
+                <ListItem>
+                  <ListIcon as={FaCheckCircle} color="green.500" />
+                  5% Transaction Fee
+                </ListItem>
               </List>
               <Box w="80%" pt={7}>
-                <Button w="full" colorScheme="green">
+                <Button boxShadow={'0 5px 20px 0px rgb(72 187 120 / 43%)'} w="full" colorScheme="green">
                   Start trial
                 </Button>
               </Box>
@@ -164,7 +166,7 @@ function ThreeTierPricing() {
                 $
               </Text>
               <Text fontSize="5xl" fontWeight="900">
-                129
+                120
               </Text>
               <Text fontSize="3xl" color="gray.500">
                 /month
@@ -187,6 +189,10 @@ function ThreeTierPricing() {
               <ListItem>
                 <ListIcon as={FaCheckCircle} color="green.500" />
                 Unlimited Agreements.
+              </ListItem>
+              <ListItem>
+                <ListIcon as={FaCheckCircle} color="green.500" />
+                0% Transaction Fee
               </ListItem>
             </List>
             <Box w="80%" pt={7}>

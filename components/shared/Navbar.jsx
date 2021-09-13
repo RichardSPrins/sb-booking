@@ -88,6 +88,7 @@ export default function WithSubnavigation() {
           </Button>
           <Button
             display={{ base: 'none', md: 'inline-flex' }}
+            boxShadow={'0 5px 20px 0px rgb(72 187 120 / 43%)'}
             fontSize={'sm'}
             fontWeight={600}
             color={'white'}
@@ -170,7 +171,7 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
         <Box>
           <Text
             transition={'all .3s ease'}
-            _groupHover={{ color: 'pink.400' }}
+            _groupHover={{ color: 'green.400' }}
             fontWeight={500}>
             {label}
           </Text>
@@ -184,7 +185,7 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
           justify={'flex-end'}
           align={'center'}
           flex={1}>
-          <Icon color={'pink.400'} w={5} h={5} as={ChevronRightIcon} />
+          <Icon color={'green.400'} w={5} h={5} as={ChevronRightIcon} />
         </Flex>
       </Stack>
     </ChakraLink>
@@ -244,9 +245,9 @@ const MobileNavItem = ({ label, children, href }) => {
           align={'start'}>
           {children &&
             children.map((child) => (
-              <ChakraLink key={child.label} py={2} href={child.href}>
+              <Link key={child.label} py={2} href={child.href}>
                 {child.label}
-              </ChakraLink>
+              </Link>
             ))}
         </Stack>
       </Collapse>
@@ -256,7 +257,7 @@ const MobileNavItem = ({ label, children, href }) => {
 
 const NAV_ITEMS = [
   {
-    label: 'Inspiration',
+    label: 'See Our Coaches',
     children: [
       {
         label: 'Explore Design Work',
@@ -271,26 +272,15 @@ const NAV_ITEMS = [
     ],
   },
   {
-    label: 'Find Work',
-    children: [
-      {
-        label: 'Job Board',
-        subLabel: 'Find your dream design job',
-        href: '#',
-      },
-      {
-        label: 'Freelance Projects',
-        subLabel: 'An exclusive list for contract work',
-        href: '#',
-      },
-    ],
+    label: 'About',
+    href: "#"
   },
   {
-    label: 'Learn Design',
+    label: 'Free Tutorials',
     href: '#',
   },
   {
-    label: 'Pricing',
-    href: '/pricing',
+    label: 'For Coaches',
+    href: '/become-a-coach',
   },
 ];

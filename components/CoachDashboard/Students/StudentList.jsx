@@ -13,7 +13,7 @@ import {
   Box
 } from '@chakra-ui/react'
 
-const RecentSessionList = () => {
+const StudentList = () => {
   const [status, _setStatus] = React.useState(['Active', 'Inactive', 'Complete'])
   const [game, _setGame] = React.useState(['Apex Legends', 'Warzone', 'League of Legends', 'Rocket League', 'Splitgate'])
   return (
@@ -33,8 +33,8 @@ const RecentSessionList = () => {
               <Flex align="center">
                 <Avatar />
                 <Box>
-                  <Text ml="4">Student Name</Text>
-                  <Text color="gray.500" ml="4">Student Email</Text>
+                <Text ml="4">Student Name</Text>
+                <Text color="gray.500" ml="4">Student Email</Text>
                 </Box>
               </Flex>
             </Td>
@@ -47,8 +47,8 @@ const RecentSessionList = () => {
               <Flex align="center">
                 <Avatar />
                 <Box>
-                  <Text ml="4">Student Name</Text>
-                  <Text color="gray.500" ml="4">Student Email</Text>
+                <Text ml="4">Student Name</Text>
+                <Text color="gray.500" ml="4">Student Email</Text>
                 </Box>
               </Flex>
             </Td>
@@ -61,8 +61,8 @@ const RecentSessionList = () => {
               <Flex align="center">
                 <Avatar />
                 <Box>
-                  <Text ml="4">Student Name</Text>
-                  <Text color="gray.500" ml="4">Student Email</Text>
+                <Text ml="4">Student Name</Text>
+                <Text color="gray.500" ml="4">Student Email</Text>
                 </Box>
               </Flex>
             </Td>
@@ -75,8 +75,8 @@ const RecentSessionList = () => {
               <Flex align="center">
                 <Avatar />
                 <Box>
-                  <Text ml="4">Student Name</Text>
-                  <Text color="gray.500" ml="4">Student Email</Text>
+                <Text ml="4">Student Name</Text>
+                <Text color="gray.500" ml="4">Student Email</Text>
                 </Box>
               </Flex>
             </Td>
@@ -89,8 +89,8 @@ const RecentSessionList = () => {
               <Flex align="center">
                 <Avatar />
                 <Box>
-                  <Text ml="4">Student Name</Text>
-                  <Text color="gray.500" ml="4">Student Email</Text>
+                <Text ml="4">Student Name</Text>
+                <Text color="gray.500" ml="4">Student Email</Text>
                 </Box>
               </Flex>
             </Td>
@@ -98,11 +98,37 @@ const RecentSessionList = () => {
             <Td>{game[Math.floor(Math.random() * 5)]}</Td>
             <Td>{status[Math.floor(Math.random() * 3)]}</Td>
           </Tr>
-
+          <Tr>
+            <Td>
+              <Flex align="center">
+                <Avatar />
+                <Box>
+                <Text ml="4">Student Name</Text>
+                <Text color="gray.500" ml="4">Student Email</Text>
+                </Box>
+              </Flex>
+            </Td>
+            <Td>{new Date().toLocaleString()}</Td>
+            <Td>{game[Math.floor(Math.random() * 5)]}</Td>
+            <Td>{status[Math.floor(Math.random() * 3)]}</Td>
+          </Tr>
+          <Tr>
+            <Td>
+              <Flex align="center">
+                <Avatar />
+                <Box>
+                <Text ml="4">Student Name</Text>
+                <Text color="gray.500" ml="4">Student Email</Text>
+                </Box>
+              </Flex>
+            </Td>
+            <Td>{new Date().toLocaleString()}</Td>
+            <Td>{game[Math.floor(Math.random() * 5)]}</Td>
+            <Td>{status[Math.floor(Math.random() * 3)]}</Td>
+          </Tr>
         </Tbody>
       </Table>
     </Box>
   )
 }
-
-export default RecentSessionList
+export default StudentList

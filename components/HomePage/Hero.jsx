@@ -44,17 +44,17 @@ export default function CallToActionWithVideo() {
             </Text>
             <br />
             <Text as={'span'} color={'green.400'}>
-              right at your fingertips!
+              ready right now!
             </Text>
           </Heading>
           <Text color={'gray.500'}>
-            Tired of constantly losing to high skill players? Looking to take your gaming skill to the next level? Hire a SquadPerks coach, and start winning more games today!
+            Is your team in need of a coach, but you're unsure where to find one? Tired of constantly losing to high skill players? Looking to take your gaming skill to the next level? Hire a SquadPerks coach, and start winning more games today!
           </Text>
           <Stack
             spacing={{ base: 4, sm: 6 }}
             direction={{ base: 'column', sm: 'row' }}>
             <Button
-              rounded={'full'}
+              rounded={'lg'}
               size={'lg'}
               fontWeight={'normal'}
               px={6}
@@ -64,7 +64,7 @@ export default function CallToActionWithVideo() {
               Get started
             </Button>
             <Button
-              rounded={'full'}
+              rounded={'lg'}
               size={'lg'}
               fontWeight={'normal'}
               px={6}
@@ -114,7 +114,7 @@ export default function CallToActionWithVideo() {
               w={'100%'}
               h={'100%'}
               src={
-                'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80'
+                'esports-coach.jpg'
               }
             />
           </Box>

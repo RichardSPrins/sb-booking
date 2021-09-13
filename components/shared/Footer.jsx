@@ -99,11 +99,10 @@ export default function LargeWithNewsletter() {
           </Stack>
           <Stack align={'flex-start'}>
             <ListHeader>Company</ListHeader>
-            <Link href={'#'}>About us</Link>
-            <Link href={'#'}>Blog</Link>
+            <Link href={'#'}>About Us</Link>
+            <Link href={'#'}>Free Tutorials</Link>
             <Link href={'#'}>Contact us</Link>
-            <Link href={'#'}>Pricing</Link>
-            <Link href={'#'}>Testimonials</Link>
+            <Link href={'#'}>Pricing for Coaches</Link>
           </Stack>
           <Stack align={'flex-start'}>
             <ListHeader>Support</ListHeader>
@@ -114,7 +113,7 @@ export default function LargeWithNewsletter() {
             <Link href={'#'}>Status</Link>
           </Stack>
           <Stack align={'flex-start'}>
-            <ListHeader>Stay up to date</ListHeader>
+            <ListHeader>Stay up to date with new features and services.</ListHeader>
             <Stack direction={'row'}>
               <Input
                 placeholder={'Your email address'}

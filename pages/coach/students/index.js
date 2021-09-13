@@ -1,6 +1,6 @@
 import * as React from 'react'
 import CoachLayout from '../../../layouts/CoachLayout'
-import StudentList from '../../../components/CoachDashboard/Sudents/StudentList'
+import StudentList from '../../../components/CoachDashboard/Students/StudentList'
 import {
   Container,
   Heading

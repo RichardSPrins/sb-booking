@@ -16,6 +16,7 @@ import {
   IoLogoBitcoin,
   IoSearchSharp,
 } from 'react-icons/io5';
+import {FaChalkboardTeacher, FaRoute} from 'react-icons/fa'
 import { ReactElement } from 'react';
 
 const Feature = ({ text, icon, iconBg }) => {
@@ -52,10 +53,10 @@ export default function SplitWithImage() {
         <Stack spacing={4}>
           <Text
             textTransform={'uppercase'}
-            color={'blue.400'}
+            color={'white.400'}
             fontWeight={600}
             fontSize={'sm'}
-            bg={useColorModeValue('blue.50', 'blue.900')}
+            bg={useColorModeValue('green.50', 'green.900')}
             p={2}
             alignSelf={'flex-start'}
             rounded={'md'}>
@@ -77,19 +78,19 @@ export default function SplitWithImage() {
             }>
             <Feature
               icon={
-                <Icon as={IoAnalyticsSharp} color={'yellow.500'} w={5} h={5} />
+                <Icon as={FaChalkboardTeacher} color={'yellow.500'} w={5} h={5} />
               }
               iconBg={useColorModeValue('yellow.100', 'yellow.900')}
               text={'Personal Coaches'}
             />
             <Feature
-              icon={<Icon as={IoLogoBitcoin} color={'green.500'} w={5} h={5} />}
+              icon={<Icon as={FaRoute} color={'green.500'} w={5} h={5} />}
               iconBg={useColorModeValue('green.100', 'green.900')}
               text={'Tailored Learning Paths'}
             />
             <Feature
               icon={
-                <Icon as={IoSearchSharp} color={'purple.500'} w={5} h={5} />
+                <Icon as={IoAnalyticsSharp} color={'purple.500'} w={5} h={5} />
               }
               iconBg={useColorModeValue('purple.100', 'purple.900')}
               text={'Real Time Success Metrics'}

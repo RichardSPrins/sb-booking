@@ -49,12 +49,12 @@ import { IconType } from 'react-icons';
 import { ReactText } from 'react';
 
 const LinkItems = Array.from([
-  { name: 'Dashboard', path:'dashboard', icon: FaHome },
-  { name: 'Students', path:'students', icon: FaUserGraduate },
-  { name: 'Sessions', path:'sessions', icon: FaUserClock },
+  { name: 'Dashboard', path:'/coach/dashboard', icon: FaHome },
+  { name: 'Students', path:'/coach/students', icon: FaUserGraduate },
+  { name: 'Sessions', path:'/coach/sessions', icon: FaUserClock },
   // { name: 'Calendar', path:'calendar', icon: FaCalendarAlt },
-  { name: 'Learning Paths', path:'learning-paths', icon: FaRoute },
-  { name: 'Tutorials', path:'tutorials', icon: FaFileAlt },
+  { name: 'Learning Paths', path:'/coach/learning-paths', icon: FaRoute },
+  { name: 'Tutorials', path:'/coach/tutorials', icon: FaFileAlt },
   // { name: 'Favourites', path:'', icon: FiStar },
   // { name: 'Settings', path:'', icon: FaCog },
 ]);
