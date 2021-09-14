@@ -57,9 +57,11 @@ const formats = [
   'video',
 ] 
 
+const Loading = () => <p>Loading ...</p>
+
 const QuillNoSSRWrapper = dynamic(import('react-quill'), {	
 	ssr: false,
-	loading: () => <p>Loading ...</p>,
+	loading: Loading,
 	})
 
 const CoachDashboardHome = () => {
