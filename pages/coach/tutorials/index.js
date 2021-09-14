@@ -1,5 +1,6 @@
 import * as React from 'react'
 import CoachLayout from '../../../layouts/CoachLayout'
+import Link from 'next/link'
 import {
   Container,
   Heading,
@@ -17,7 +18,9 @@ const CoachDashboardHome = () => {
       <Container maxW="7xl">
         <Flex justify="space-between" flexWrap="wrap">
           <Heading>My Tutorials</Heading>
-          <Button leftIcon={<Icon as={FiPlus}/>} colorScheme="green">New Post</Button>
+          <Link href="/coach/tutorials/new">
+            <Button leftIcon={<Icon as={FiPlus}/>} colorScheme="green">New Post</Button>
+          </Link>
         </Flex>
         <SimpleGrid spacing="4" columns={{base: 1,lg: 2, xl: 3}}>
           <TutorialPreview />

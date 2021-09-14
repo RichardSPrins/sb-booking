@@ -18,12 +18,13 @@ import {
 import FeaturedCoachesSection from '../components/HomePage/FeaturedCoachesSection'
 import FindCoachByFeaturedGameSection from '../components/HomePage/FindCoachByFeaturedGameSection'
 import NewsletterForm from '../components/shared/NewsletterForm'
+import ComingSoonForm from '../components/ComingSoon/ComingSoonForm'
 
 export default function Home() {
   return (
     <MarketingLayout>
       <Container maxW="7xl">
-
+      <ComingSoonForm/>
       </Container>
     </MarketingLayout>
   )

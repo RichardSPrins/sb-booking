@@ -78,27 +78,29 @@ export default function WithSubnavigation() {
           justify={'flex-end'}
           direction={'row'}
           spacing={6}>
-          <Button
+          {/* <Button
             as={'a'}
             fontSize={'sm'}
             fontWeight={400}
             variant={'link'}
             href={'#'}>
             Sign In
-          </Button>
-          <Button
-            display={{ base: 'none', md: 'inline-flex' }}
-            boxShadow={'0 5px 20px 0px rgb(72 187 120 / 43%)'}
-            fontSize={'sm'}
-            fontWeight={600}
-            color={'white'}
-            bg={'green.400'}
-            href={'#'}
-            _hover={{
-              bg: 'green.300',
-            }}>
-            Sign Up
-          </Button>
+          </Button> */}
+          <Link href='coming-soon'>
+            <Button
+              display={{ base: 'none', md: 'inline-flex' }}
+              boxShadow={'0 5px 20px 0px rgb(72 187 120 / 43%)'}
+              fontSize={'sm'}
+              fontWeight={600}
+              color={'white'}
+              bg={'green.400'}
+              href={'#'}
+              _hover={{
+                bg: 'green.300',
+              }}>
+              Sign Up
+            </Button>
+          </Link>
         </Stack>
       </Flex>
 
