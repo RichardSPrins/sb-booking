@@ -29,7 +29,7 @@ export default function CallToActionWithAnnotation() {
           spacing={{ base: 8, md: 14 }}
           py={{ base: 20, md: 36 }}>
           <Heading
-            fontWeight={600}
+            fontWeight={'bold'}
             fontSize={{ base: '4xl', md: '6xl' }}
             lineHeight={'110%'}>
             Meet your new assistant <br />

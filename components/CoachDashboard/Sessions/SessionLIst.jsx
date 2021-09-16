@@ -11,6 +11,7 @@ import {
   Flex,
   Text
 } from '@chakra-ui/react'
+import faker from 'faker'
 
 const SessionList = () => {
   return (
@@ -26,8 +27,8 @@ const SessionList = () => {
         <Tr>
           <Td>
             <Flex align="center">
-              <Avatar />
-              <Text ml="4">Student Name</Text>
+              <Avatar src={faker.image.avatar()}/>
+              <Text ml="4">{faker.name.findName()}</Text>
             </Flex>
           </Td>
           <Td>millimetres (mm)</Td>
@@ -36,8 +37,8 @@ const SessionList = () => {
         <Tr>
           <Td>
             <Flex align="center">
-              <Avatar />
-              <Text ml="4">Student Name</Text>
+              <Avatar src={faker.image.avatar()}/>
+              <Text ml="4">{faker.name.findName()}</Text>
             </Flex>
           </Td>
           <Td>millimetres (mm)</Td>
@@ -46,8 +47,8 @@ const SessionList = () => {
         <Tr>
           <Td>
             <Flex align="center">
-              <Avatar />
-              <Text ml="4">Student Name</Text>
+              <Avatar src={faker.image.avatar()}/>
+              <Text ml="4">{faker.name.findName()}</Text>
             </Flex>
           </Td>
           <Td>millimetres (mm)</Td>
@@ -56,8 +57,8 @@ const SessionList = () => {
         <Tr>
           <Td>
             <Flex align="center">
-              <Avatar />
-              <Text ml="4">Student Name</Text>
+              <Avatar src={faker.image.avatar()}/>
+              <Text ml="4">{faker.name.findName()}</Text>
             </Flex>
           </Td>
           <Td>millimetres (mm)</Td>
@@ -66,8 +67,8 @@ const SessionList = () => {
         <Tr>
           <Td>
             <Flex align="center">
-              <Avatar />
-              <Text ml="4">Student Name</Text>
+              <Avatar src={faker.image.avatar()}/>
+              <Text ml="4">{faker.name.findName()}</Text>
             </Flex>
           </Td>
           <Td>millimetres (mm)</Td>
@@ -76,8 +77,8 @@ const SessionList = () => {
         <Tr>
           <Td>
             <Flex align="center">
-              <Avatar />
-              <Text ml="4">Student Name</Text>
+              <Avatar src={faker.image.avatar()}/>
+              <Text ml="4">{faker.name.findName()}</Text>
             </Flex>
           </Td>
           <Td>millimetres (mm)</Td>
@@ -86,8 +87,8 @@ const SessionList = () => {
         <Tr>
           <Td>
             <Flex align="center">
-              <Avatar />
-              <Text ml="4">Student Name</Text>
+              <Avatar src={faker.image.avatar()}/>
+              <Text ml="4">{faker.name.findName()}</Text>
             </Flex>
           </Td>
           <Td>millimetres (mm)</Td>
@@ -96,8 +97,8 @@ const SessionList = () => {
         <Tr>
           <Td>
             <Flex align="center">
-              <Avatar />
-              <Text ml="4">Student Name</Text>
+              <Avatar src={faker.image.avatar()}/>
+              <Text ml="4">{faker.name.findName()}</Text>
             </Flex>
           </Td>
           <Td>millimetres (mm)</Td>
@@ -106,8 +107,8 @@ const SessionList = () => {
         <Tr>
           <Td>
             <Flex align="center">
-              <Avatar />
-              <Text ml="4">Student Name</Text>
+              <Avatar src={faker.image.avatar()}/>
+              <Text ml="4">{faker.name.findName()}</Text>
             </Flex>
           </Td>
           <Td>millimetres (mm)</Td>
@@ -116,8 +117,8 @@ const SessionList = () => {
         <Tr>
           <Td>
             <Flex align="center">
-              <Avatar />
-              <Text ml="4">Student Name</Text>
+              <Avatar src={faker.image.avatar()}/>
+              <Text ml="4">{faker.name.findName()}</Text>
             </Flex>
           </Td>
           <Td>millimetres (mm)</Td>
@@ -126,8 +127,8 @@ const SessionList = () => {
         <Tr>
           <Td>
             <Flex align="center">
-              <Avatar />
-              <Text ml="4">Student Name</Text>
+              <Avatar src={faker.image.avatar()}/>
+              <Text ml="4">{faker.name.findName()}</Text>
             </Flex>
           </Td>
           <Td>millimetres (mm)</Td>

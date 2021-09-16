@@ -32,12 +32,10 @@ const LearningPathsList = () => {
           <Tr>
             <Td>
               <Flex align="center">
-                <Avatar />
                 <Box>
                   <Link href="/coach/learning-paths/1">
                     <Text ml="4" cursor="pointer" fontWeight="bold">Learning Path Name</Text>
                   </Link>
-                  <Text color="gray.500" ml="4">Student Name</Text>
                 </Box>
               </Flex>
             </Td>
@@ -48,12 +46,10 @@ const LearningPathsList = () => {
           <Tr>
             <Td>
               <Flex align="center">
-                <Avatar />
                 <Box>
                   <Link href="/coach/learning-paths/1">
                     <Text ml="4" cursor="pointer" fontWeight="bold">Learning Path Name</Text>
                   </Link>
-                  <Text color="gray.500" ml="4">Student Name</Text>
                 </Box>
               </Flex>
             </Td>
@@ -64,12 +60,10 @@ const LearningPathsList = () => {
           <Tr>
             <Td>
               <Flex align="center">
-                <Avatar />
                 <Box>
                   <Link href="/coach/learning-paths/1">
                     <Text ml="4" cursor="pointer" fontWeight="bold">Learning Path Name</Text>
                   </Link>
-                  <Text color="gray.500" ml="4">Student Name</Text>
                 </Box>
               </Flex>
             </Td>
@@ -80,12 +74,10 @@ const LearningPathsList = () => {
           <Tr>
             <Td>
               <Flex align="center">
-                <Avatar />
                 <Box>
                   <Link href="/coach/learning-paths/1">
                     <Text ml="4" cursor="pointer" fontWeight="bold">Learning Path Name</Text>
                   </Link>
-                  <Text color="gray.500" ml="4">Student Name</Text>
                 </Box>
               </Flex>
             </Td>

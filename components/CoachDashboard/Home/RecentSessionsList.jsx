@@ -12,6 +12,7 @@ import {
   Text,
   Box
 } from '@chakra-ui/react'
+import faker from 'faker'
 
 const RecentSessionList = () => {
   const [status, _setStatus] = React.useState(['Active', 'Inactive', 'Complete'])
@@ -31,10 +32,10 @@ const RecentSessionList = () => {
           <Tr>
             <Td>
               <Flex align="center">
-                <Avatar />
+                <Avatar src={faker.internet.avatar()}/>
                 <Box>
-                  <Text ml="4">Student Name</Text>
-                  <Text color="gray.500" ml="4">Student Email</Text>
+                  <Text ml="4">{faker.name.findName()}</Text>
+                  <Text color="gray.500" ml="4">{faker.internet.email()}</Text>
                 </Box>
               </Flex>
             </Td>
@@ -45,10 +46,10 @@ const RecentSessionList = () => {
           <Tr>
             <Td>
               <Flex align="center">
-                <Avatar />
+                <Avatar src={faker.internet.avatar()}/>
                 <Box>
-                  <Text ml="4">Student Name</Text>
-                  <Text color="gray.500" ml="4">Student Email</Text>
+                  <Text ml="4">{faker.name.findName()}</Text>
+                  <Text color="gray.500" ml="4">{faker.internet.email()}</Text>
                 </Box>
               </Flex>
             </Td>
@@ -59,10 +60,10 @@ const RecentSessionList = () => {
           <Tr>
             <Td>
               <Flex align="center">
-                <Avatar />
+                <Avatar src={faker.internet.avatar()}/>
                 <Box>
-                  <Text ml="4">Student Name</Text>
-                  <Text color="gray.500" ml="4">Student Email</Text>
+                  <Text ml="4">{faker.name.findName()}</Text>
+                  <Text color="gray.500" ml="4">{faker.internet.email()}</Text>
                 </Box>
               </Flex>
             </Td>
@@ -73,10 +74,10 @@ const RecentSessionList = () => {
           <Tr>
             <Td>
               <Flex align="center">
-                <Avatar />
+                <Avatar src={faker.internet.avatar()}/>
                 <Box>
-                  <Text ml="4">Student Name</Text>
-                  <Text color="gray.500" ml="4">Student Email</Text>
+                  <Text ml="4">{faker.name.findName()}</Text>
+                  <Text color="gray.500" ml="4">{faker.internet.email()}</Text>
                 </Box>
               </Flex>
             </Td>
@@ -87,10 +88,10 @@ const RecentSessionList = () => {
           <Tr>
             <Td>
               <Flex align="center">
-                <Avatar />
+                <Avatar src={faker.internet.avatar()}/>
                 <Box>
-                  <Text ml="4">Student Name</Text>
-                  <Text color="gray.500" ml="4">Student Email</Text>
+                  <Text ml="4">{faker.name.findName()}</Text>
+                  <Text color="gray.500" ml="4">{faker.internet.email()}</Text>
                 </Box>
               </Flex>
             </Td>

@@ -166,7 +166,7 @@ export default function JoinOurTeam() {
       </Container>
       <Blur
         position={'absolute'}
-        top={-10}
+        top={70}
         left={-10}
         style={{ filter: 'blur(70px)' }}
       />
