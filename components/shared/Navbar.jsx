@@ -203,20 +203,22 @@ const MobileNav = () => {
       {NAV_ITEMS.map((navItem) => (
         <MobileNavItem key={navItem.label} {...navItem} />
       ))}
-      <Button
-        // display={{ base: 'none', md: 'inline-flex' }}
-        isFullWidth
-        boxShadow={'0 5px 20px 0px rgb(72 187 120 / 43%)'}
-        fontSize={'sm'}
-        fontWeight={600}
-        color={'white'}
-        bg={'green.400'}
-        href={'#'}
-        _hover={{
-          bg: 'green.300',
-        }}>
-        Sign Up
-      </Button>
+      <Link href='coming-soon'>
+        <Button
+          // display={{ base: 'none', md: 'inline-flex' }}
+          isFullWidth
+          boxShadow={'0 5px 20px 0px rgb(72 187 120 / 43%)'}
+          fontSize={'sm'}
+          fontWeight={600}
+          color={'white'}
+          bg={'green.400'}
+          href={'#'}
+          _hover={{
+            bg: 'green.300',
+          }}>
+          Sign Up
+        </Button>
+      </Link>
     </Stack>
   );
 };
